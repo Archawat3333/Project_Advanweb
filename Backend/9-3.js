@@ -36,7 +36,6 @@ expressApp.use((req, res, next) => {
 
 expressApp.use('/userJcandidate', require('./routes/userJcandidate'))
 
-expressApp.use('/signup', require('./routes/signup'))
 expressApp.use('/user', require('./routes/user'))
 expressApp.use('/candidate', require('./routes/candidate'))
 

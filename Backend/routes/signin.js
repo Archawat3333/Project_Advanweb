@@ -1,4 +1,4 @@
-const expressFunction = require('express');
+const expressFunction = require('express');   //ทำ Login ต่อไฟล์นี้ได้เลย 
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');

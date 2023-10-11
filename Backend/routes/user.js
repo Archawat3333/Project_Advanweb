@@ -36,7 +36,7 @@ res.status(500).send(err); // Sending a status code and the error message
   
       });
 
-      router.route('/addUser').post((req, res) => {
+      router.route('/addUser').post((req, res) => { //อันนี้เอาไว้ใช้สมัครสมาชิก ยังไม่ได้ทำเข้ารหัส + token
         User.create(req.body)
                     .then((result) => {
                         console.log("Create User Sucess!!");

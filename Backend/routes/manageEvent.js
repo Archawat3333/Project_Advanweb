@@ -1,6 +1,6 @@
 var expressFunction = require('express');
 const router = expressFunction.Router();
-const Event = require("../model/dashboard.medel");
+const Event = require("../models/dashboard.medel");
 
 
 

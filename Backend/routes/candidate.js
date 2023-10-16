@@ -1,6 +1,6 @@
 var expressFunction = require('express');
 const router = expressFunction.Router();
-const Candidate = require("../model/candidate.model");
+const Candidate = require("../models/candidate.model");
 var expressApp = expressFunction();
 
 

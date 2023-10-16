@@ -1,6 +1,6 @@
 var expressFunction = require('express');
 const router = expressFunction.Router();
-const DashBoards = require("../model/dashboard.medel");
+const DashBoards = require("../models/dashboard.medel");
 
 
 

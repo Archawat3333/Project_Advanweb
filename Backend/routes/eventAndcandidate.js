@@ -1,6 +1,6 @@
 var expressFunction = require('express');
 const router = expressFunction.Router();
-const Event = require("../model/eventJcandidate.model");
+const Event = require("../models/eventJcandidate.model");
 
 
 
